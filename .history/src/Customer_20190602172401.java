@@ -1,17 +1,17 @@
-import com.sun.corba.se.spi.ior.IORTemplate;
 
-public class Customer extends Person
+
+public class Customer_20190602172401 extends Person
 {
 
     protected   LinkedList2 cart=new LinkedList2();
     private int i=0;
 
-    public Customer(String name, String id, String username, String password)
+    public Customer_20190602172401(String name, String id, String username, String password)
     {
         super(name,id,username,password);
     }
 
-    public Customer()
+    public Customer_20190602172401()
     {
     }
 
